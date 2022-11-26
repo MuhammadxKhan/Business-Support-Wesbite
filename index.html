@@ -45,8 +45,8 @@
         <header>
             <div class="header_container">
                 <div class="header_description">
-                    <h1>UK's most trusted business advisers</h1>
-                    <h2>Here at Satorian Business Advice, we offer only the best<br> for our customers. We offer in depth help to our clients<br> and provide them invaluble connections.</h2>
+                    <h1 class="trust">UK's most trusted business advisers</h1>
+                    <h2 class="trustpara">Here at Satorian Business Advice, we offer only the best<br> for our customers. We offer in depth help to our clients<br> and provide them invaluble connections.</h2>
                     <a href="#features">
                         <button class="btn" href="features">Browse Products</button>
                     </a>
@@ -189,104 +189,111 @@
 
 
 
-        <section id="pricings">
-            <div class="container">
-                <div class="row">
-                    <h2 class="pricing_title--main">
-                      Reasonable And Flexible Plans
-                    </h2>
-                    <p class="pricing_title--para">
-                        We are a web, mobile, software, and business development compant based in<br> the United Kingdom. And efficient collaboration of systems engineers,<br>
-                        programmers, graphic designers and business intellegence agents, centered on providing<br> amazing quality
-                        solutions adapted to any budget.<br><br>
-                        Our mission is to help clients businesses grow, innovate and endure<br> their brands, digitally through adoption of: 
-                    </p>
-    
-    
-                    <div class="pricing_wrapper">
+        <div class="wrapper">
 
-
-                        <div class="pricing pricing1">
-                            <div class="type">
-                                BASIC
-                            </div>
-                            <div class="price">
-                                <h3>$50</h3>
-                            </div>
-                            <div class="time">
-                                MONTHLY
-                            </div>
-                            <hr>
-                            <h3 class="pricing_subtitle">
-                                For Startups
-                            </h3>
-                            <div class="package">
-                                2 Websites<br> Basic Assistance<br>
-                                HTTPS security<br>Basic Media Support<br>
-                            </div>
-                            <hr>
-                            <div class="btn_buy">
-                                <button class="btn btn_buy">BUY NOW</button>
-                            </div>
-                        </div>
-    
-                        <div class="pricing pricing2">
-                            <div class="type">
-                                BUSINESS
-                            </div>
-                            <div class="price">
-                                <h3>$150</h3>
-                            </div>
-                            <div class="time">
-                                MONTHLY
-                            </div>
-                            <hr class="i">
-                            <h3 class="pricing_subtitle">
-                                For Small Businesses
-                            </h3>
-                            <div class="package">
-                                10 Websites<br> Priority Assistance<br>
-                                Advanced security<br>Media Support<br>
-                                Advaced Media Marketing Support
-                            </div>
-                            <hr>
-                            <div class="btn_buy">
-                                <button class="btn btn_buy">BUY NOW</button>
-                            </div>
-                        </div>
-
-                        <div class="pricing pricing3">
-                            <div class="type">
-                                ENTERPRISE
-                            </div>
-                            <div class="price">
-                                <h3>$300</h3>
-                            </div>
-                            <div class="time">
-                                MONTHLY
-                            </div>
-                            <hr>
-                            <h3 class="pricing_subtitle">
-                                For Large Businesses
-                            </h3>
-                            <div class="package">
-                                20 Websites<br> Personal 24/7 Assistance<br>
-                                Personal Security Team<br>Personal Media Team<br>
-                            </div>
-                            <hr>
-                            <div class="btn_buy">
-                                <button class="btn btn_buy">BUY NOW</button>
-                            </div>
-                        </div>
-
-
+            <h2 class="title">Our <span class="purple">Pricing</span></h2>
+            <div class="single-price">
+                <h1>BASIC</h1>
+                <div class="price">
+                    <h2>$50</h2>
                 </div>
-            </div>           
-        </section>
+                <div class="deals">
+                    <h4>2 Wesbites</h4>
+                    <h4>Basic Assisstance</h4>
+                    <h4>HTTPS Security</h4>
+                    <h4>Basic Media/Marketing</h4>
+                </div>
+                <a href="#">BUY NOW</a>
+            </div>
 
+
+            <div class="single-price">
+                <h1>BUSINESS</h1>
+                <div class="price">
+                    <h2>$150</h2>
+                </div>
+                <div class="deals">
+                    <h4>10 Websites</h4>
+                    <h4>Priority Assisstance</h4>
+                    <h4>Advanced Security</h4>
+                    <h4>Advanced Media/Marketing</h4>
+                </div>
+                <a href="#">BUY NOW</a>
+            </div>
+
+
+            <div class="single-price">
+                <h1>ENTERPRISE</h1>
+                <div class="price">
+                    <h2>$300</h2>
+                </div>
+                <div class="deals">
+                    <h4>30 Websites</h4>
+                    <h4>Personal 24/7 Asisstance</h4>
+                    <h4>Security Team</h4>
+                    <h4>Marketing/Media Team</h4>
+                </div>
+                <a href="#">BUY NOW</a>
+            </div>
+
+
+        </div>
     
 
 
+        <div class="fcf-body">
+
+            <div id="fcf-form">
+            <h3 class="fcf-h3"><span class="purple">Contact</span> Us</h3>
+        
+            <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+                
+                <div class="fcf-form-group">
+                    <label for="Name" class="fcf-label">Your name</label>
+                    <div class="fcf-input-group">
+                        <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <label for="Email" class="fcf-label">Your email address</label>
+                    <div class="fcf-input-group">
+                        <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <label for="Message" class="fcf-label">Your message</label>
+                    <div class="fcf-input-group">
+                        <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                    </div>
+                </div>
+        
+                <div class="fcf-form-group">
+                    <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send Message</button>
+                </div>
+        
+        
+            </form>
+            </div>
+
+        
+            <footer>
+                <div class="container">
+                    <div class="row row_column">
+                        <a href="#">
+                           <h2><span class="purple">Satorian</span></h2>
+                        </a>
+                        <div class="footer_list">
+                            <a href="#" class="footer_link no-cursor">Home</a>
+                            <a href="#highlights" class="footer_link no-cursor">About</a>
+                            <a href="" class="footer_link no-cursor">Products</a>
+                            <a href="" class="footer_link no-cursor">Contact</a>
+                        </div>
+                        <div class="footer_copyright">Copyright &copy; 2022 Satorian Business Advisers LTD</div>
+                    </div>
+                </div>
+            </footer>
     </main>
 </body>
 </html>
