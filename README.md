@@ -1,2 +1,4 @@
 # Business-Support-Wesbite
-A website which is meant to be used by Business analytics and support called Satorian Bussines Advisers LTD
+A website which utilises HTML5, CSS3 and Javascript which is to be used
+by business Analytic companies and is made using modern layouts and trending
+colour schemes.
